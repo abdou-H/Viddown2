@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Downloader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>أداة تحميل الفيديو</h1>
+    <input type="text" id="url" placeholder="ألصق رابط الفيديو هنا" />
+    <select id="format">
+      <option value="mp4">MP4</option>
+      <option value="mp3">MP3</option>
+    </select>
+    <button onclick="downloadVideo()">تحميل</button>
+    <p id="status"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
